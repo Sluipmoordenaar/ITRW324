@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SimpleJava">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14079703"/>
+      <preferredSize width="500" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="779d3">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-14079703"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="2f460">
+            <constraints/>
+          </hspacer>
+          <component id="252b6" class="javax.swing.JButton" binding="clickMeButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-11775661"/>
+              <foreground color="-16711936"/>
+              <text value="Click Me"/>
+            </properties>
+          </component>
+          <component id="8e987" class="javax.swing.JButton" binding="exitButton">
+            <constraints/>
+            <properties>
+              <background color="-11775661"/>
+              <foreground color="-16711936"/>
+              <label value="Esc"/>
+              <text value="Esc"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <hspacer id="10b0">
+            <constraints/>
+          </hspacer>
+        </children>
+      </toolbar>
+      <component id="9afa8" class="javax.swing.JLabel" binding="label1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font name="Comic Sans MS" size="22"/>
+          <foreground color="-16711936"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
